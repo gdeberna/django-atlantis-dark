@@ -50,11 +50,6 @@
 											<span class="sub-item">Dashboard</span>
 										</a>
 									</li>
-									<li>
-										<a href="/spycy_dash">
-											<span class="sub-item">sPYCY Dashboard</span>
-										</a>
-									</li>
 								</ul>
 							</div>
 						</li>
@@ -64,52 +59,6 @@
 							</span>
 							<h4 class="text-section">Components</h4>
 						</li>
-						<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
-							<a data-toggle="collapse" href="#raw_data">
-								<i class="fas fa-layer-group"></i>
-								<p>Raw Data</p>
-								<span class="caret"></span>
-							</a>
-							<div class="collapse" id="raw_data">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="/Projects">
-											<span class="sub-item">Projects</span>
-										</a>
-									</li>
-									<li>
-										<a href="/requirements">
-											<span class="sub-item">Requirements</span>
-										</a>
-									</li>
-									<li>
-										<a href="/tools">
-											<span class="sub-item">Tools</span>
-										</a>
-									</li>
-									<li>
-										<a href="/functions">
-											<span class="sub-item">Security Functions</span>
-										</a>
-									</li>
-									<li>
-										<a href="/Owners">
-											<span class="sub-item">Project Owners</span>
-										</a>
-									</li>
-									<li>
-										<a href="/tests">
-											<span class="sub-item">Test Cases</span>
-										</a>
-									</li>
-									<li>
-										<a href="/questionnaire">
-											<span class="sub-item">Questionnaire</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</li>	
 						<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
 							<a data-toggle="collapse" href="#base">
 								<i class="fas fa-layer-group"></i>
